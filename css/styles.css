@@ -121,11 +121,21 @@ img {
 }
 
 /*Hero section*/
+
 .hero-section {
-  background-color: #2e2f42;
   padding: 188px 0;
   flex-shrink: 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/heroimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .hero-img {
   color: white;
   font-size: 56px;
@@ -190,6 +200,14 @@ img {
 .features-li {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+.accessibility-logo-icons {
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 .studio-h {
   font-size: 20px;
   font-weight: 500;
@@ -259,6 +277,7 @@ img {
   letter-spacing: 0.32px;
   text-align: center;
 }
+
 /*Portfolio section*/
 .portfolio {
   color: #2e2f42;
