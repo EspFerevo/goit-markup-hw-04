@@ -88,7 +88,10 @@ img {
 }
 .link.active {
   color: #404bbf;
-  transition: color 250s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.active::after {
@@ -134,7 +137,6 @@ img {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   color: #434455;
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address:hover,
@@ -236,6 +238,10 @@ img {
   background-color: #f4f4fd;
   margin-bottom: 8px;
   padding: 24px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .studio-h {
@@ -362,6 +368,7 @@ img {
 }
 
 .overlay {
+  padding: 40px 32px;
   position: absolute;
   top: 0;
   left: 0;
