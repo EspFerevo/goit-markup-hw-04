@@ -428,6 +428,13 @@ img {
 
 /*footer sections*/
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-div-one {
+  margin-right: 120px;
+}
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -465,6 +472,8 @@ img {
 .footer-icons-ul {
   display: flex;
   gap: 16px;
+}
+.footer-li-icons {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
