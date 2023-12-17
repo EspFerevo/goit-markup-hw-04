@@ -342,9 +342,7 @@ img {
   height: 40px;
 }
 
-.team-icons-href:hover {
-  background-color: #404bbf;
-}
+.team-icons-href:hover,
 .team-icons-href:active {
   background-color: #404bbf;
 }
@@ -499,9 +497,7 @@ img {
   height: 40px;
 }
 
-.footer-icons-href:hover {
-  background-color: #31d0aa;
-}
+.footer-icons-href:hover,
 .footer-icons-href:active {
   background-color: #31d0aa;
 }
