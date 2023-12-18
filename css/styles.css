@@ -345,6 +345,10 @@ img {
   height: 40px;
 }
 
+.team-icons-href {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-icons-href:hover,
 .team-icons-href:focus {
   background-color: #404bbf;
@@ -366,6 +370,18 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+/*portfolio shadow*/
+
+.portfolio-li {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*!!*/
 
 .portfolio h2 {
   text-align: center;
@@ -498,6 +514,7 @@ img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-href:hover {
